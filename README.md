@@ -18,4 +18,16 @@ The GitHub Action in this repository runs on a daily schedule (at midnight UTC) 
 4. Pushes the commit back to the `main` branch.
 
 ## File Structure
-
+my-auto-commit-project/
+│
+├── .github/
+│   └── workflows/
+│       └── auto_commit.yml  # GitHub Actions workflow file
+│
+├── myfile.txt  # Example file to be updated automatically
+│
+├── README.md   # Project README file
+│
+├── LICENSE     # Open source license file (e.g., MIT)
+│
+└── .gitignore  # Git ignore file
